@@ -1,1 +1,1 @@
-# test.github.io
+# fakelog.github.io
