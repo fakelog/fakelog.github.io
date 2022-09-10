@@ -3,17 +3,13 @@
     width: 8px;
 }
 
-::-webkit-scrollbar-track {
-    filter: blur(6px);
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
 }
 
 body {
     margin: 0;
     overflow: overlay;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 4px;
 }
 
 header {
