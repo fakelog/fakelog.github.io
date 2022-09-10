@@ -1,0 +1,28 @@
+
+body {
+    margin: auto;
+    background-color: hsl(205deg 100% 98%);
+}
+
+header {
+    background-color: hsl(205deg 100% 87%);
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.shadow {
+    filter: drop-shadow(1px 2px 4px lightgray);
+}
+
+.button_head {
+    padding: 18px;
+}
+
+.text_head {
+    padding: 18px;
+}
+
+h1 {
+    color: blue;
+}
