@@ -8,7 +8,7 @@ function getWidth() {
         document.documentElement.clientWidth
     );
 }
-      
+
 function getHeight() {
     return Math.max(
         document.body.scrollHeight,
@@ -17,7 +17,7 @@ function getHeight() {
         document.documentElement.offsetHeight,
         document.documentElement.clientHeight
     );
-}   
+}
 
 function draw() {
 
@@ -27,7 +27,7 @@ function draw() {
     canvas.height = getHeight();
 
     if (canvas.getContext) {
-        
+
         const gC = canvas.getContext('2d');
 
         gC.arc(200, 200, 100, 0, 2 * Math.PI);

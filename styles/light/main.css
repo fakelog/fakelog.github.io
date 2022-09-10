@@ -1,5 +1,23 @@
 @import '../common/main.css';
 
 body {
-    background-color: #eeffee;
+    background-color: hsl(205deg 100% 98%);
 }
+
+body::-webkit-scrollbar-thumb {
+    background-color: hsl(205deg, 100%, 65%, 50%);
+}
+
+header {
+    background-color: #bee4ff90;
+}
+
+
+.button_head:hover {
+    background-color: hsl(205deg, 100%, 65%, 10%);
+}
+
+.button_head:active {
+    background: radial-gradient(hsl(205deg, 100%, 65%, 50%), transparent);
+}
+
